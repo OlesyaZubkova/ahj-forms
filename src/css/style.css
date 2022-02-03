@@ -1,0 +1,40 @@
+.block {
+    width: 400px;
+    margin: auto;
+}
+
+#header {
+    background-color: #F7F7F7;
+    padding: 15px;
+    margin: 0;
+    border-radius: .3rem;
+    border: 1px #F8F9FA solid;
+}
+
+#text {
+    padding: 15px;
+    margin: 0;
+    border-radius: .3rem;
+    border: 1px #F8F9FA solid;
+}
+
+#popover-btn {
+    margin: 200px auto;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    font-size: 1.25rem;
+    background-color: #dc3545;
+    color: #ffffff;
+    border-radius: .3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.popover-btn:hover {
+    background-color: #C82333;
+}
+
+.popover-btn:focus {
+    box-shadow: 0 0 0 .2rem rgba(225,83,97,.5);
+}
