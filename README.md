@@ -6,7 +6,9 @@
 
 ---
 
-### Popovers
+### Popovers [![Build status](https://ci.appveyor.com/api/projects/status/qo4rs8kwdj015ok3?svg=true)](https://ci.appveyor.com/project/OlesyaZubkova/ahj-forms)
+
+
 
 #### Легенда
 
