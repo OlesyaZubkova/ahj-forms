@@ -6,7 +6,7 @@ describe('button test', () => {
   test('should check button`s work', async () => {
     let browser = null;
     let page = null;
-    const baseUrl = 'http://localhost:8080';
+    const baseUrl = 'http://localhost:9000';
     browser = await puppeteer.launch({
       // headless: false,
       // slowMo: 100,
