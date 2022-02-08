@@ -1,7 +1,7 @@
 import puppeteer from 'puppeteer';
 import { fork } from 'child_process';
 
-jest.setTimeout(40000);
+jest.setTimeout(60000);
 
 describe('button test', () => {
   let browser = null;
