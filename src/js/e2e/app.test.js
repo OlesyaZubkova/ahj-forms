@@ -1,7 +1,7 @@
 import puppeteer from 'puppeteer';
 import { fork } from 'child_process';
 
-jest.setTimeout(60000);
+jest.setTimeout(30000);
 
 describe('button test', () => {
   let browser = null;
@@ -22,7 +22,7 @@ describe('button test', () => {
 
     browser = await puppeteer.launch({
       // headless: false,
-      // slowMo: 100,
+      // slowMo: 250,
       // devtools: true,
     });
 
@@ -30,6 +30,7 @@ describe('button test', () => {
   });
 
   afterAll(async () => {
+    await browser.close();
     server.kill();
   });
 
