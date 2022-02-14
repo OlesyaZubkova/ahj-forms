@@ -28,7 +28,6 @@ describe('button test', () => {
   });
 
   afterAll(async () => {
-    await browser.close();
     server.kill();
   });
 
