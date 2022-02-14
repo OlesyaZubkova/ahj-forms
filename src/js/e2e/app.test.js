@@ -1,6 +1,8 @@
 import puppeteer from 'puppeteer';
 import { fork } from 'child_process';
 
+jest.setTimeout(30000);
+
 describe('button test', () => {
   let browser = null;
   let page = null;
@@ -28,6 +30,7 @@ describe('button test', () => {
   });
 
   afterAll(async () => {
+    await browser.close();
     server.kill();
   });
 
