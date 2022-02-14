@@ -1,6 +1,10 @@
 {
   "name": "ahj-forms",
   "version": "1.0.0",
+  "test": {
+    "testEnvironment": "node",
+    "testTimeout": 90000
+  },
   "description": "popover",
   "main": "index.js",
   "scripts": {
