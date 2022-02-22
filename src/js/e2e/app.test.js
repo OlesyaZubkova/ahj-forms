@@ -39,6 +39,5 @@ describe('button test', () => {
     const btn = await page.$('[class=toggle-btn]');
     btn.click();
     await page.waitForSelector('[class=popover]');
-    await browser.close();
   });
 });
